@@ -1,7 +1,10 @@
-export default function Home() {
-  return (
-    <div className="flex h-screen w-screen items-center justify-center">
-      <p className="text-bold">My Next Started App!</p>
-    </div>
-  );
+import HomePage from "../components/HomePage";
+import AboutPage from "../components/AboutPage";
+import BlogPage from "../components/BlogPage";
+const IndexPage = () => {
+  return <BlogPage posts={undefined} />;
+
 }
+export default IndexPage;
+
+
